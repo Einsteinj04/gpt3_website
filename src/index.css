@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap');
+/* font-family: 'Manrope', sans-serif; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+:root {
+  background-color: #040C18;
+  color: white;
+
+  font-synthesis: none;
+  font-family: 'Manrope', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+html{
+  @apply scroll-smooth
+}
+button{
+  @apply bg-orange hover:bg-white hover:text-orange
+}
+li{
+  @apply mr-8 cursor-pointer p-5
+}
+}
+/* To remove the blue background effect on mobile */
+*{
+
+-webkit-tap-highlight-color: transparent !important;
+
+outline: none !important;
+
+}
+
