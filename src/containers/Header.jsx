@@ -45,7 +45,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-full min-w[500px] overflow-hidden" id="HeaderImg">
+      <div className="w-full min-w[500px] sm:max-w-full max-w[350px] overflow-hidden" id="HeaderImg">
         <img
           src={HeaderImg}
           className="h-full aos-init"
