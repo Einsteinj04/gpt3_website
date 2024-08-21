@@ -12,7 +12,7 @@ const Header = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          Let’s Build Something amazing with GPT-3 OpenA
+          Let’s Build Something amazing with GPT-3 OpenAi
         </h1>
         <motion.p
           className="text-slate font-normal leading-[27px] text-[20px] max-[550px]:text-base max-[350px]:text-xs mb-10"
